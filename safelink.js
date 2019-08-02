@@ -1,5 +1,5 @@
 var Base64 = {
-    _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=",
+    _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
     encode: function(input) {
         var output = "";
         var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
